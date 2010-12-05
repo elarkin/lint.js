@@ -5,9 +5,11 @@ make
 
 Once built:
 
-node lint.js PATHTOFILE
+node lint.js FILE.js [OPTIONS.json]
 
-lint.js utilizes JSLINT /without/ passing the options hash,
-	this requires the user to include the appropriate comments.
+lint.js utilizes JSLINT on FILE passing the options hash defined
+	in OPTIONS.json if supplied; this requires the user to include
+	the appropriate comments or supply a valid json file.
+	a json file for "The Good Parts" options is included.
 
 See http://www.jslint.com/lint.html for more details
