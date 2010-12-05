@@ -1,0 +1,12 @@
+{
+	"debug": true,
+	"evil": true,
+	"laxbreak": true,
+	"forin": true,
+	"sub": true,
+	"css": true,
+	"cap": true,
+	"on": true,
+	"fragment": true,
+	"es5": true
+}
