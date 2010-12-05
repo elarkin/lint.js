@@ -1,0 +1,13 @@
+To build lint.js:
+
+git submodule update --rebase
+make
+
+Once built:
+
+node lint.js PATHTOFILE
+
+lint.js utilizes JSLINT /without/ passing the options hash,
+	this requires the user to include the appropriate comments.
+
+See http://www.jslint.com/lint.html for more details
