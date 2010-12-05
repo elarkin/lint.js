@@ -20,7 +20,8 @@ if(JSLINT(filesource)) {
 	console.log('Congratulations! The file checks out!');
 } else {
 	JSLINT.errors.forEach(function(error) {
-		console.log('Line: ' + error.line + '; Character: ' + error.character + '::' + error.evidence + '::');
+		console.log('Line: ' + error.line + '; Character: ' + error.character);
+		console.log('Evidence: ' + error.evidence);
 		console.log('\t' + error.reason);
 	});
 }
